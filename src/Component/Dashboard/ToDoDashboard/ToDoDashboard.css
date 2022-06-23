@@ -1,0 +1,22 @@
+.tab-card {
+    display: none;
+    margin-left: 15px;
+}
+
+.covid-for-tab {
+    display: none;
+}
+
+@media only screen and (max-width: 1194px) {
+    .tab-device-todo-card {
+        display: flex;
+    }
+
+    .tab-card {
+        display: block;
+    }
+
+    .covid-for-tab {
+        display: block;
+    }
+}

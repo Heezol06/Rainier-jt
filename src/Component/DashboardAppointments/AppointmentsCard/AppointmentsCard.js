@@ -1,8 +1,9 @@
 import React from 'react';
+import './AppointmentsCard.css'
 
 const AppointmentsCard = () => {
     return (
-        <div className='rounded shadow-lg m-5 p-3'>
+        <div className='rounded shadow-lg m-5 p-3 sizing-for-tab'>
             <h6>Upcoming Appointments</h6>
             {/* card  */}
             <div className='flex rounded-lg shadow-md bg-pink-100'>

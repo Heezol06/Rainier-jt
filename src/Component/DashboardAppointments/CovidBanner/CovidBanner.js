@@ -2,7 +2,7 @@ import React from 'react';
 
 const CovidBanner = () => {
     return (
-        <div className='rounded-xl shadow-lg m-5 p-3'>
+        <div className='rounded-xl shadow-lg m-5 p-3 sizing-for-tab'>
             <div className='flex justify-between'>
                 <h6>Upcoming Appointments</h6>
                 <div>
