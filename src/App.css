@@ -28,10 +28,51 @@
   color: #61dafb;
 }
 
+.Hot-Pink {
+  color: #FF7594;
+}
+
+.Hot-Pink-bg {
+  background-color: #FF7594;
+}
+
+.custom-btn {
+  background: linear-gradient(180deg, #FF7C65 0%, #FF7594 100%);
+  padding: 6px 14px 6px 14px;
+  display: flex;
+  align-items: center;
+}
+
+
+.Orange {
+  color: #FF7C65;
+}
+
+.Orange-bg {
+  background-color: #FF7C65;
+}
+
+.text-color {
+  color: #2E1619;
+}
+
+.Linear {
+  background: linear-gradient(180deg, #FF7C65 0%, #FF7594 100%);
+}
+
+.bby-peach {
+  color: #FFF5F5;
+}
+
+.text-24 {
+  font-size: 24px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
