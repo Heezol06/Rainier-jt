@@ -1,0 +1,12 @@
+/* .covid-sizing-md {
+    display: block;
+} */
+.covid-width-lg {
+    width: 91%;
+}
+
+@media only screen and (max-width: 1194px) {
+    .covid-sizing-md {
+        display: none;
+    }
+}

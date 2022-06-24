@@ -5,7 +5,7 @@ const ToDoDashboard = () => {
     return (
         <div className=''>
             <div className='tab-device-todo-card my-5'>
-                <div className='p-3 rounded-lg shadow-md w-full todo-width-md-device' style={{ paddingBottom: "50px" }}>
+                <div className='p-3 rounded-lg shadow-md w-full todo-width-md-device todo-width-lg' style={{ paddingBottom: "50px" }}>
                     <h5 className='text-2xl text-start'>To-Do List</h5>
                     <div className='flex justify-between'>
                         <input type="text" className='border-1 w-full h-16' />
@@ -54,86 +54,83 @@ const ToDoDashboard = () => {
                 {/* tab card  */}
                 <div className='tab-card text-left ap-card-width-md-device rounded-lg shadow-md p-3' >
                     <h6>Upcoming Appointments</h6>
-                    {/* card  */}
-                    <div className='flex rounded-lg shadow-md bg-pink-100 width-card-md'>
-                        <div className='rounded-lg bg-white'>
-                            <p className='text-gray-400'>2022</p>
-                            <p className='font-bold'>13</p>
-                            <p className='text-xl text-gray-400'>Sep</p>
+                    {/* card i pad pro */}
+                    <div className='flex rounded-lg shadow-md bg-pink-100 my-2'>
+                        <div className='rounded-lg bg-white p-2'>
+                            <p className='text-gray-400 margin-padding-0'>2022</p>
+                            <p className='font-bold margin-padding-0'>13</p>
+                            <p className='text-xl text-gray-400 margin-padding-0'>Sep</p>
                         </div>
-                        <div className='rounded-lg '>
-                            <p>Dr. Muhammad Abdul Hussein</p>
-                            <p className='font-medium'>Cardiologist</p>
+                        <div className='rounded-lg mx-2 text-left'>
+                            <p className='margin-padding-0'>Dr. Muhammad Abdul Hussein</p>
+                            <p className='font-medium margin-padding-0'>Cardiologist</p>
                             <div className='flex justify-between'>
                                 <p className='flex justify-between rounded bg-white'>
-                                    <p className='font-thin'>Slot</p>
+                                    <p className='font-thin margin-padding-0'>Slot</p>
                                     Morning
                                 </p>
                                 <p className='flex justify-between bg-white rounded'>
-                                    <span className='font-thin'>Time</span>
+                                    <span className='font-thin margin-padding-0'>Time</span>
                                     10.00 AM
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div className='flex rounded-lg shadow-md  bg-pink-100 width-card-md'>
-                        <div className='rounded-lg bg-white'>
-                            <p className='text-gray-400'>2022</p>
-                            <p className='font-bold'>13</p>
-                            <p className='text-xl text-gray-400'>Sep</p>
+                    </div><div className='flex rounded-lg shadow-md bg-pink-100 my-2'>
+                        <div className='rounded-lg bg-white p-2'>
+                            <p className='text-gray-400 margin-padding-0'>2022</p>
+                            <p className='font-bold margin-padding-0'>13</p>
+                            <p className='text-xl text-gray-400 margin-padding-0'>Sep</p>
                         </div>
-                        <div className='rounded-lg'>
-                            <p>Dr. Muhammad Abdul Hussein</p>
-                            <p className='font-medium'>Cardiologist</p>
+                        <div className='rounded-lg mx-2 text-left'>
+                            <p className='margin-padding-0'>Dr. Muhammad Abdul Hussein</p>
+                            <p className='font-medium margin-padding-0'>Cardiologist</p>
                             <div className='flex justify-between'>
                                 <p className='flex justify-between rounded bg-white'>
-                                    <p className='font-thin'>Slot</p>
+                                    <p className='font-thin margin-padding-0'>Slot</p>
                                     Morning
                                 </p>
                                 <p className='flex justify-between bg-white rounded'>
-                                    <span className='font-thin'>Time</span>
+                                    <span className='font-thin margin-padding-0'>Time</span>
                                     10.00 AM
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div className='flex rounded-lg shadow-md bg-pink-100 width-card-md'>
-                        <div className='rounded-lg bg-white'>
-                            <p className='text-gray-400'>2022</p>
-                            <p className='font-bold'>13</p>
-                            <p className='text-xl text-gray-400'>Sep</p>
+                    </div><div className='flex rounded-lg shadow-md bg-pink-100 my-2'>
+                        <div className='rounded-lg bg-white p-2'>
+                            <p className='text-gray-400 margin-padding-0'>2022</p>
+                            <p className='font-bold margin-padding-0'>13</p>
+                            <p className='text-xl text-gray-400 margin-padding-0'>Sep</p>
                         </div>
-                        <div className='rounded-lg'>
-                            <p>Dr. Muhammad Abdul Hussein</p>
-                            <p className='font-medium'>Cardiologist</p>
+                        <div className='rounded-lg mx-2 text-left'>
+                            <p className='margin-padding-0'>Dr. Muhammad Abdul Hussein</p>
+                            <p className='font-medium margin-padding-0'>Cardiologist</p>
                             <div className='flex justify-between'>
                                 <p className='flex justify-between rounded bg-white'>
-                                    <p className='font-thin'>Slot</p>
+                                    <p className='font-thin margin-padding-0'>Slot</p>
                                     Morning
                                 </p>
                                 <p className='flex justify-between bg-white rounded'>
-                                    <span className='font-thin'>Time</span>
+                                    <span className='font-thin margin-padding-0'>Time</span>
                                     10.00 AM
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div className='flex rounded-lg shadow-md bg-pink-100 width-card-md'>
-                        <div className='rounded-lg bg-white'>
-                            <p className='text-gray-400'>2022</p>
-                            <p className='font-bold'>13</p>
-                            <p className='text-xl text-gray-400'>Sep</p>
+                    </div><div className='flex rounded-lg shadow-md bg-pink-100 my-2'>
+                        <div className='rounded-lg bg-white p-2'>
+                            <p className='text-gray-400 margin-padding-0'>2022</p>
+                            <p className='font-bold margin-padding-0'>13</p>
+                            <p className='text-xl text-gray-400 margin-padding-0'>Sep</p>
                         </div>
-                        <div className='rounded-lg '>
-                            <p>Dr. Muhammad Abdul Hussein</p>
-                            <p className='font-medium'>Cardiologist</p>
+                        <div className='rounded-lg mx-2 text-left'>
+                            <p className='margin-padding-0'>Dr. Muhammad Abdul Hussein</p>
+                            <p className='font-medium margin-padding-0'>Cardiologist</p>
                             <div className='flex justify-between'>
                                 <p className='flex justify-between rounded bg-white'>
-                                    <p className='font-thin'>Slot</p>
+                                    <p className='font-thin margin-padding-0'>Slot</p>
                                     Morning
                                 </p>
                                 <p className='flex justify-between bg-white rounded'>
-                                    <span className='font-thin'>Time</span>
+                                    <span className='font-thin margin-padding-0'>Time</span>
                                     10.00 AM
                                 </p>
                             </div>

@@ -50,7 +50,7 @@ const DashboardHome = () => {
                 </div>
             </div>
             {/* banner */}
-            <div className='Linear flex p-5 mr-5 width-md-device'>
+            <div className='Linear flex p-5 mr-5 width-md-device width-lg-device'>
                 {/* illusion */}
                 <div className='flex justify-between'>
                     <svg width="230" height="231" viewBox="0 0 230 231" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -236,7 +236,7 @@ const DashboardHome = () => {
                 </div>
             </div>
             {/* patient descriptions  */}
-            <div className='flex justify-evenly sizing-patients-des width-md-device' style={{ marginTop: "28px", gap: "21px" }}>
+            <div className='flex justify-between sizing-patients-des width-md-device width-lg-device' style={{ marginTop: "28px", gap: "21px" }}>
                 <div className=' rounded-lg shadow-md text-start py-2 pr-14 pl-2'>
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 5C0 2.23858 2.23858 0 5 0H36C38.7614 0 41 2.23858 41 5V35C41 37.7614 38.7614 40 36 40H5C2.23858 40 0 37.7614 0 35V5Z" fill="#FF2D2D" fill-opacity="0.6" />

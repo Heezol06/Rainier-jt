@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './CovidBanner.css'
 const CovidBanner = () => {
     return (
-        <div className='rounded-xl shadow-lg m-5 p-3 sizing-for-tab'>
+        <div className='rounded-lg shadow-md my-14 pt-2 pb-4 pl-4 pr-2 covid-width-lg covid-sizing-md'>
             <div className='flex justify-between'>
-                <h6>Upcoming Appointments</h6>
+                <h6>Covid-19 Updates</h6>
                 <div>
                     <h6>10 September 2022</h6>
                     <h6 className='font-thin text-gray-300'>Thursday  10:00:00 AM</h6>
@@ -869,7 +869,7 @@ const CovidBanner = () => {
                         <path d="M109.463 59.6859L102.235 52.3716L104.666 49.9731L108.888 54.2458L117.657 40.4974L120.535 42.3305L109.463 59.6859Z" fill="#FF7C65" />
                     </svg>
                 </div>
-                <div className='Linear p-3 h-52'>
+                <div className='Linear p-3'>
                     <p>Infection Number </p>
                     <h3>500</h3>
                     <p>Infection Rate </p>

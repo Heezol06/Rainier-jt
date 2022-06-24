@@ -7,6 +7,10 @@
     display: none;
 }
 
+.todo-width-lg {
+    width: 105%;
+}
+
 @media only screen and (max-width: 1194px) {
     .tab-device-todo-card {
         display: flex;
