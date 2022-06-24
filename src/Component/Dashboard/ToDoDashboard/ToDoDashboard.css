@@ -41,3 +41,19 @@
         width: 92%;
     }
 }
+
+@media only screen and (max-width: 812px) {
+    .tab-device-todo-card {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .covid-sm-sizing {
+        display: block;
+
+    }
+
+    .covid-sm-width {
+        width: 60%;
+    }
+}
