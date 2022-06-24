@@ -4,10 +4,10 @@ import ToDoDashboard from '../Dashboard/ToDoDashboard/ToDoDashboard';
 
 const DashboardHome = () => {
     return (
-        <div className='flex flex-col align-items-start ml-28'>
+        <div className='flex flex-col align-items-start ml-28 '>
             <div className='flex justify-between my-3' >
                 <h3 className='text-24 mb-3'>Home</h3>
-                <div className='flex justify-end items-center' style={{ position: "absolute", right: "0px", top: "10px" }}>
+                <div className='flex justify-end items-center ' style={{ position: "absolute", right: "0px", top: "10px" }}>
                     <svg width="83" height="41" viewBox="0 0 83 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 20.1212C0 9.00857 9.00857 0 20.1212 0H62.8788C73.9914 0 83 9.00857 83 20.1212V20.1212C83 31.2339 73.9914 40.2424 62.8788 40.2424H20.1212C9.00858 40.2424 0 31.2339 0 20.1212V20.1212Z" fill="white" />
                         <circle cx="62.8788" cy="20.1212" r="19.2828" fill="#FFEBEB" />
@@ -50,7 +50,7 @@ const DashboardHome = () => {
                 </div>
             </div>
             {/* banner */}
-            <div className='Linear flex p-5 mr-5'>
+            <div className='Linear flex p-5 mr-5 width-md-device'>
                 {/* illusion */}
                 <div className='flex justify-between'>
                     <svg width="230" height="231" viewBox="0 0 230 231" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -236,7 +236,7 @@ const DashboardHome = () => {
                 </div>
             </div>
             {/* patient descriptions  */}
-            <div className='flex justify-between w-full sizing-patients-des sm:block' style={{ marginTop: "28px" }}>
+            <div className='flex justify-evenly sizing-patients-des width-md-device' style={{ marginTop: "28px", gap: "21px" }}>
                 <div className=' rounded-lg shadow-md text-start py-2 pr-14 pl-2'>
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 5C0 2.23858 2.23858 0 5 0H36C38.7614 0 41 2.23858 41 5V35C41 37.7614 38.7614 40 36 40H5C2.23858 40 0 37.7614 0 35V5Z" fill="#FF2D2D" fill-opacity="0.6" />

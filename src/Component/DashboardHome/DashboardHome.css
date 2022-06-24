@@ -2,4 +2,8 @@
     .sizing-patients-des {
         justify-content: space-around;
     }
+
+    .width-md-device {
+        width: 90%;
+    }
 }

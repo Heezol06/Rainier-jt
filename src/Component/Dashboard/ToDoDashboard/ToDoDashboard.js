@@ -4,8 +4,8 @@ import './ToDoDashboard.css'
 const ToDoDashboard = () => {
     return (
         <div className=''>
-            <div className='tab-device-todo-card'>
-                <div className='my-5 p-3 rounded-lg shadow-md w-full' style={{ paddingBottom: "50px" }}>
+            <div className='tab-device-todo-card my-5'>
+                <div className='p-3 rounded-lg shadow-md w-full todo-width-md-device' style={{ paddingBottom: "50px" }}>
                     <h5 className='text-2xl text-start'>To-Do List</h5>
                     <div className='flex justify-between'>
                         <input type="text" className='border-1 w-full h-16' />
@@ -52,88 +52,88 @@ const ToDoDashboard = () => {
                     </div>
                 </div>
                 {/* tab card  */}
-                <div className='tab-card text-left' >
+                <div className='tab-card text-left ap-card-width-md-device rounded-lg shadow-md p-3' >
                     <h6>Upcoming Appointments</h6>
                     {/* card  */}
-                    <div className='flex rounded-lg shadow-md bg-pink-100'>
-                        <div className='rounded-lg bg-white p-3'>
+                    <div className='flex rounded-lg shadow-md bg-pink-100 width-card-md'>
+                        <div className='rounded-lg bg-white'>
                             <p className='text-gray-400'>2022</p>
                             <p className='font-bold'>13</p>
                             <p className='text-xl text-gray-400'>Sep</p>
                         </div>
-                        <div className='rounded-lg  p-3'>
+                        <div className='rounded-lg '>
                             <p>Dr. Muhammad Abdul Hussein</p>
                             <p className='font-medium'>Cardiologist</p>
                             <div className='flex justify-between'>
-                                <p className='flex justify-between rounded me-3 bg-white'>
-                                    <p className='font-thin me-3'>Slot</p>
+                                <p className='flex justify-between rounded bg-white'>
+                                    <p className='font-thin'>Slot</p>
                                     Morning
                                 </p>
                                 <p className='flex justify-between bg-white rounded'>
-                                    <span className='font-thin pe-3'>Time</span>
+                                    <span className='font-thin'>Time</span>
                                     10.00 AM
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className='flex rounded-lg shadow-md my-3 bg-pink-100'>
-                        <div className='rounded-lg bg-white p-3'>
+                    <div className='flex rounded-lg shadow-md  bg-pink-100 width-card-md'>
+                        <div className='rounded-lg bg-white'>
                             <p className='text-gray-400'>2022</p>
                             <p className='font-bold'>13</p>
                             <p className='text-xl text-gray-400'>Sep</p>
                         </div>
-                        <div className='rounded-lg  p-3'>
+                        <div className='rounded-lg'>
                             <p>Dr. Muhammad Abdul Hussein</p>
                             <p className='font-medium'>Cardiologist</p>
                             <div className='flex justify-between'>
-                                <p className='flex justify-between rounded me-3 bg-white'>
-                                    <p className='font-thin me-3'>Slot</p>
+                                <p className='flex justify-between rounded bg-white'>
+                                    <p className='font-thin'>Slot</p>
                                     Morning
                                 </p>
                                 <p className='flex justify-between bg-white rounded'>
-                                    <span className='font-thin pe-3'>Time</span>
+                                    <span className='font-thin'>Time</span>
                                     10.00 AM
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className='flex rounded-lg shadow-md my-3 bg-pink-100'>
-                        <div className='rounded-lg bg-white p-3'>
+                    <div className='flex rounded-lg shadow-md bg-pink-100 width-card-md'>
+                        <div className='rounded-lg bg-white'>
                             <p className='text-gray-400'>2022</p>
                             <p className='font-bold'>13</p>
                             <p className='text-xl text-gray-400'>Sep</p>
                         </div>
-                        <div className='rounded-lg p-3'>
+                        <div className='rounded-lg'>
                             <p>Dr. Muhammad Abdul Hussein</p>
                             <p className='font-medium'>Cardiologist</p>
                             <div className='flex justify-between'>
-                                <p className='flex justify-between rounded me-3 bg-white'>
-                                    <p className='font-thin me-3'>Slot</p>
+                                <p className='flex justify-between rounded bg-white'>
+                                    <p className='font-thin'>Slot</p>
                                     Morning
                                 </p>
                                 <p className='flex justify-between bg-white rounded'>
-                                    <span className='font-thin pe-3'>Time</span>
+                                    <span className='font-thin'>Time</span>
                                     10.00 AM
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className='flex rounded-lg shadow-md bg-pink-100'>
-                        <div className='rounded-lg bg-white p-3'>
+                    <div className='flex rounded-lg shadow-md bg-pink-100 width-card-md'>
+                        <div className='rounded-lg bg-white'>
                             <p className='text-gray-400'>2022</p>
                             <p className='font-bold'>13</p>
                             <p className='text-xl text-gray-400'>Sep</p>
                         </div>
-                        <div className='rounded-lg  p-3'>
+                        <div className='rounded-lg '>
                             <p>Dr. Muhammad Abdul Hussein</p>
                             <p className='font-medium'>Cardiologist</p>
                             <div className='flex justify-between'>
-                                <p className='flex justify-between rounded me-3 bg-white'>
-                                    <p className='font-thin me-3'>Slot</p>
+                                <p className='flex justify-between rounded bg-white'>
+                                    <p className='font-thin'>Slot</p>
                                     Morning
                                 </p>
                                 <p className='flex justify-between bg-white rounded'>
-                                    <span className='font-thin pe-3'>Time</span>
+                                    <span className='font-thin'>Time</span>
                                     10.00 AM
                                 </p>
                             </div>
@@ -143,7 +143,7 @@ const ToDoDashboard = () => {
 
             </div>
             {/* tab covid banner  */}
-            <div className='rounded-xl shadow-lg m-5 p-3 covid-for-tab'>
+            <div className='rounded-xl shadow-lg my-3 p-3 covid-for-tab covid-md-width'>
                 <div className='flex justify-between'>
                     <h6>Upcoming Appointments</h6>
                     <div>
@@ -151,7 +151,7 @@ const ToDoDashboard = () => {
                         <h6 className='font-thin text-gray-300'>Thursday  10:00:00 AM</h6>
                     </div>
                 </div>
-                <div className='flex my-4'>
+                <div className='flex my-4 justify-around'>
                     <div>
                         <svg width="228" height="228" viewBox="0 0 228 228" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M29.339 55.3037L28.427 54.0634C28.386 54.0041 28.5866 53.6575 28.5228 53.58C28.4589 53.5025 27.6108 53.8445 27.7157 54.0086C27.8205 54.1728 28.0531 54.1318 28.0805 54.1774C28.1078 54.223 28.728 55.632 28.728 55.632L29.339 55.3037Z" fill="#EBEBEB" />
@@ -1010,17 +1010,19 @@ const ToDoDashboard = () => {
                             <path d="M109.463 59.6859L102.235 52.3716L104.666 49.9731L108.888 54.2458L117.657 40.4974L120.535 42.3305L109.463 59.6859Z" fill="#FF7C65" />
                         </svg>
                     </div>
-                    <div className='Linear p-3 h-52'>
-                        <p>Infection Number </p>
-                        <h3>500</h3>
-                        <p>Infection Rate </p>
-                        <h4>10%</h4>
-                    </div>
-                    <div className='Linear p-3 h-52'>
-                        <p>Infection Number </p>
-                        <h3>500</h3>
-                        <p>Infection Rate </p>
-                        <h4>10%</h4>
+                    <div className='flex rounded-md text-white'>
+                        <div className='Linear p-3 h-52'>
+                            <p>Infection Number </p>
+                            <h3>500</h3>
+                            <p>Infection Rate </p>
+                            <h4>10%</h4>
+                        </div>
+                        <div className='Linear p-3 h-52'>
+                            <p>Infection Number </p>
+                            <h3>500</h3>
+                            <p>Infection Rate </p>
+                            <h4>10%</h4>
+                        </div>
                     </div>
                 </div>
             </div>

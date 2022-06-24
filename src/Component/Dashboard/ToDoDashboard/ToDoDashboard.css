@@ -19,4 +19,21 @@
     .covid-for-tab {
         display: block;
     }
+
+    .todo-width-md-device {
+        width: 45%;
+    }
+
+    .ap-card-width-md-device {
+        width: 45%;
+    }
+
+    .width-card-md {
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    .covid-md-width {
+        width: 92%;
+    }
 }
