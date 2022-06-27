@@ -1,6 +1,28 @@
 import React from 'react';
 import './CovidBanner.css'
+import { useState } from 'react';
 const CovidBanner = () => {
+    const [darkMode, setDarkMode] = useState({
+        color: "black",
+        backgroundColor: "white"
+    })
+    const [btnText, setBtnText] = useState("Enable Dark Mode")
+    const handleToggleStyle = () => {
+        if (darkMode.color === "black") {
+            setDarkMode({
+                color: "black",
+                backgroundColor: "white"
+            })
+            setBtnText("Enable Light Mode")
+        }
+        else {
+            setDarkMode({
+                color: "white",
+                backgroundColor: "black",
+            })
+            setBtnText("Enable Light Mode")
+        }
+    }
     return (
         <div className='rounded-lg shadow-md my-14 pt-2 pb-4 pl-4 pr-2 covid-width-lg covid-sizing-md'>
             <div className='flex justify-between'>

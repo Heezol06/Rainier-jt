@@ -8,7 +8,9 @@
 
 @media only screen and (max-width: 1194px) {
     .sizing-patients-des {
-        justify-content: space-around;
+        justify-content: space-between !important;
+        gap: 75px !important;
+
     }
 
     .banner-width-md-device {
@@ -26,8 +28,26 @@
         display: none;
     }
 
-    /* .banner-sizing-sm-device {
+    .banner-margin-sm {
+        margin: 0 !important;
+    }
+
+    .banner-sizing-sm-device {
         width: 100%;
         display: block;
-    } */
+    }
+
+    .user-sec-sm {
+        position: absolute;
+        right: 100px !important;
+        width: 45%;
+    }
+
+    .remove-arrow-sm {
+        display: none;
+    }
+
+    .pd-align-sm {
+        justify-content: space-evenly !important;
+    }
 }

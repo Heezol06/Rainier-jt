@@ -54,6 +54,19 @@
     }
 
     .covid-sm-width {
-        width: 60%;
+        width: 100%;
+    }
+
+    .todo-width-sm-device {
+        width: 100%;
+    }
+
+    .hide-btn-sm {
+        display: none;
+    }
+
+    .card-width-sm {
+        width: 100%;
+        margin-left: 0px;
     }
 }

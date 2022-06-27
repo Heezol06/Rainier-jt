@@ -8,3 +8,36 @@
     display: flex !important;
 
 }
+
+.sideNab-sm {
+    display: none;
+}
+
+.dropdown-sm {
+    display: none;
+}
+
+@media only screen and (max-width: 1194px) {
+    .dropdown-sm {
+        display: none;
+        position: absolute !important;
+        top: 87px !important;
+        left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .sidebar-hide-sm {
+        display: none;
+    }
+
+    .sideNab-sm {
+        display: block;
+    }
+
+    .dropdown-sm {
+        display: block;
+        position: absolute;
+        top: 15px;
+    }
+}
